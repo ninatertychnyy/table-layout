@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  margin-top: 100px;
+}
+table {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: white;
+  border: 5px solid white;   
+  border-collapse: collapse;
+}
+tr.hide {
+  visibility: collapse;
+  height: 0;
+}
+td {
+  width: 8.3%;
+  background-color: #2f3d4f; 
+  text-align: center; 
+  vertical-align: center;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+
